@@ -1,12 +1,18 @@
-import React from 'react';
+import { ChakraProvider } from '@chakra-ui/react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
+import '@fontsource/rubik/latin.css';
+
 import App from './App';
-import './index.css';
+
+import { theme } from './styles/customTheme';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <StrictMode>
+    <ChakraProvider theme={theme}>
+      <App />
+    </ChakraProvider>
+  </StrictMode>,
   document.getElementById('root'),
 );
 
