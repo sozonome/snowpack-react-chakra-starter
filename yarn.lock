@@ -1445,11 +1445,6 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@fontsource/rubik@^4.2.2":
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@fontsource/rubik/-/rubik-4.2.2.tgz#e7507b5d4e2c2f3722e25e41f16169e7e5d58511"
-  integrity sha512-M7PAoPSFmmsg4A5E4jEVr4oMN9GRO6B9OUbSU4W68JhzzBJr8RFIgJ5jglbHxUuais+jDKMPHfIRzH2lmnYLJA==
-
 "@jest/types@^26.6.2":
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-26.6.2.tgz#bef5a532030e1d88a2f5a6d933f84e97226ed48e"
