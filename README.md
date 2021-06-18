@@ -4,6 +4,8 @@
 
 > ✨ Bootstrapped with [Create Snowpack App (CSA)](https://github.com/snowpackjs/snowpack/tree/main/create-snowpack-app/cli) and added [Chakra UI](https://chakra-ui.com) setup.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/snowpack-react-chakra-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/snowpack-react-chakra-starter)
+
 ## Available Scripts
 
 ### npm start
@@ -18,11 +20,13 @@ You will also see any lint errors in the console.
 
 Builds a static copy of your site to the `build/` folder.
 Your app is ready to be deployed!
+
 ### npm test
 
 Launches the application test runner.
 Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch mode.
 
 ## References
+
 - [Snowpack](https://snowpack.dev)
 - [Chakra UI](https://chakra-ui/com)
