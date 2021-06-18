@@ -4,6 +4,12 @@ module.exports = {
     public: { url: '/', static: true },
     src: { url: '/dist' },
   },
+  alias: {
+    "@app": "./src",
+    components: "./src/components",
+    styles: "./src/styles",
+    routes: "./src/routes"
+  },
   plugins: [
     '@snowpack/plugin-react-refresh',
     '@snowpack/plugin-dotenv',

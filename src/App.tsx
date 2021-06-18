@@ -1,20 +1,30 @@
-import Icon from '@chakra-ui/icon';
-import { Box, Heading } from '@chakra-ui/layout';
 import React from 'react';
-import { FiSmile } from 'react-icons/fi';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import Layout from './components/layout';
+import Layout from 'components/layout';
+import PrivateRoute from 'components/route/PrivateRoute';
+import Page404 from 'components/404';
+
+import { privateRoutes, routes } from 'routes';
 
 const App = () => {
   return (
-    <Layout>
-      <Box>
-        <Heading textAlign="center">
-          Hello
-          <Icon as={FiSmile} />
-        </Heading>
-      </Box>
-    </Layout>
+    <Router>
+      <Layout>
+        <Switch>
+          {routes.map((routeProps, index) => (
+            <Route exact {...routeProps} key={index} />
+          ))}
+          {privateRoutes.map((privateRouteProps, index) => (
+            <PrivateRoute
+              {...privateRouteProps}
+              key={`privateRoute-${index}`}
+            />
+          ))}
+          <Route component={Page404} />
+        </Switch>
+      </Layout>
+    </Router>
   );
 };
 

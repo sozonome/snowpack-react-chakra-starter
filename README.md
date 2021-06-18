@@ -1,5 +1,7 @@
 # snowpack-react-chakra-starter
 
+![snowpack-react-chakra-starter](https://socialify.git.ci/sozonome/snowpack-react-chakra-starter/image?description=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)
+
 > ✨ Bootstrapped with [Create Snowpack App (CSA)](https://github.com/snowpackjs/snowpack/tree/main/create-snowpack-app/cli) and added [Chakra UI](https://chakra-ui.com) setup.
 
 ## Available Scripts
