@@ -14,7 +14,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.6.6",
+    "@chakra-ui/react": "^1.6.7",
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
     "framer-motion": "^4.1.17",
@@ -38,12 +38,12 @@
     "@types/react-helmet": "^6.1.2",
     "@types/react-router-dom": "^5.1.8",
     "@types/snowpack-env": "^2.3.4",
-    "@web/test-runner": "^0.13.16",
+    "@web/test-runner": "^0.13.17",
     "chai": "^4.3.4",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
-    "snowpack": "^3.8.6",
+    "snowpack": "^3.8.8",
     "typescript": "^4.4.2"
   },
   "lint-staged": {
